@@ -2,30 +2,30 @@
 class LocalReview < Formula
   desc "Local code review for agentic development, built on jj"
   homepage "https://github.com/nick-telsan/local-review"
-  version "0.1.0"
+  version "0.1.1"
   license "Unlicense"
 
   depends_on "jj"
 
   on_macos do
     on_arm do
-      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.0/lr-0.1.0-darwin-arm64.tar.gz"
-      sha256 "c39af27419be48759adb0b1ca6f507f50315623702969ce4205cb82d09452447"
+      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.1/lr-0.1.1-darwin-arm64.tar.gz"
+      sha256 "29b432b6b023adf80a5e1feb0fbedd6e24bf38adb5f11f8942d95948bf2b13b0"
     end
     on_intel do
-      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.0/lr-0.1.0-darwin-x64.tar.gz"
-      sha256 "009b09d1012d16c8a5657d998032e130585ae9978929913e92f41c946aa2cfd9"
+      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.1/lr-0.1.1-darwin-x64.tar.gz"
+      sha256 "e1b7f84f2c7ffc8e87faa6d3539ac69a415ded079aa6161b6afa40cb8e612bf7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.0/lr-0.1.0-linux-arm64.tar.gz"
-      sha256 "5109d604102e47a57ee1d4d3979ec7009227da967b64c5b89a171b954967f8bf"
+      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.1/lr-0.1.1-linux-arm64.tar.gz"
+      sha256 "455ceea790b6fb8cfc2e9ac3b6676129056acddcbba7edd1ce5280fc8d738d89"
     end
     on_intel do
-      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.0/lr-0.1.0-linux-x64.tar.gz"
-      sha256 "b1d5a3e3966b762861689b3b400bdb9cc3c1953832b65fc98e59e6ad28c80e62"
+      url "https://github.com/nick-telsan/local-review/releases/download/v0.1.1/lr-0.1.1-linux-x64.tar.gz"
+      sha256 "962d378bcd04f0a4387aa00d959de1dc509dcfb0fccecd316c097c59d9589000"
     end
   end
 
